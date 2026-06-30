@@ -27,4 +27,3 @@ resource "aws_security_group_rule" "all_worker_mgmt_egress" {
   type              = "egress"
   cidr_blocks       = ["0.0.0.0/0"]
 }
-

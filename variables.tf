@@ -1,5 +1,5 @@
 variable "kubernetes_version" {
-  default     = 1.27
+  default     = 1.36
   description = "kubernetes version"
 }
 
@@ -11,4 +11,3 @@ variable "aws_region" {
   default = "us-east-1"
   description = "aws region"
 }
-
